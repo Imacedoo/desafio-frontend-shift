@@ -1,0 +1,13 @@
+.formulario-newsletter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .formulario-newsletter {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

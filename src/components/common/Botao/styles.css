@@ -1,0 +1,26 @@
+.botao {
+  background-color: #FFF;
+  border: 1px solid #000;
+  cursor: pointer;
+  height: 41px;
+  padding: 0 30px;
+  opacity: 1;
+  text-transform: uppercase;
+  transition: 200ms ease-in-out;
+}
+
+.botao:hover,
+.botao:focus {
+  background-color: #AC8880;
+  border: 1px solid #AC8880;
+  color: #FFF;
+  opacity: 0.5;
+}
+
+.botao:focus {
+  outline: none;
+}
+
+.fullWidth {
+  width: 100%;
+}

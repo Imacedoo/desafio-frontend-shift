@@ -1,0 +1,27 @@
+.tooltip {
+  position: relative;
+  display: inline;
+  cursor: pointer;
+}
+  .tooltip__texto {
+    background: #000;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    visibility: hidden;
+    width: 180px;
+  }
+:hover.tooltip span {
+  visibility: visible;
+  opacity: 0.9;
+  top: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}

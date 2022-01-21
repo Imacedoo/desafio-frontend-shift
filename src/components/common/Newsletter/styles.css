@@ -1,0 +1,31 @@
+.newsletter {
+  align-items: center;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  padding: 30px 0;
+}
+
+.newsletter__titulo,
+.newsletter__descricao {
+  text-align: center;
+}
+
+.newsletter__titulo {
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.newsletter__descricao {
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+  .newsletter__descricao__condicao {
+    font-size: 0.8em;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }

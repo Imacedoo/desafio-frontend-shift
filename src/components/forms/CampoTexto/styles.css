@@ -1,0 +1,33 @@
+.campoTexto {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.campoTexto__input,
+.campoTexto__inputError {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.campoTexto__input:focus,
+.campoTexto__inputError:focus {
+  border-bottom: 1px solid #AC8880;
+  outline: none;
+}
+
+.campoTexto__input {
+  border-bottom: 1px solid #000;
+}
+
+.campoTexto__inputError {
+  border-bottom: 1px solid red;
+}
+
+.campoTexto__mensagemErro {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
